@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.jpg" alt="logo" class="logoImg">
+        <div class="spaceLine"></div>
+        <div style="float: left;
+        font-size: 18px;">通行证</div>
+    </header>
+
+    <!-- 登录盒子 -->
+
+    <div class="contentDiv">
+        <div class="contentDiv-tab">
+            <div class="tab1 active">账号密码登录</div>
+            <div class="tab2">手机账号登录</div>
+        </div>
+
+        <!-- 登录方式选项卡部分 -->
+        <div style="height:136px ">
+            <div class="userLogin">
+                <div class="tab-user">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true" style="color: #ddd;font-size: 18px"></span>
+                    <input class="loginInput" id="unameInput" type="text" placeholder="手机/邮箱/用户名" maxlength="11" autofocus>
+                </div>
+                <div class="tab-pwd">
+                    <span class="glyphicon glyphicon-lock" aria-hidden="true" style="color: #ddd;font-size: 18px"></span>
+                    <input class="loginInput" id="pwdInput" type="password" placeholder="密码" maxlength="30">
+                </div>
+            </div>
+            <div class="phoneLogin">
+                <div class="tab-user">
+                    <span class="glyphicon glyphicon-erase" aria-hidden="true" style="color: #ddd"></span>
+                    <input class="loginInput" type="text" placeholder="手机号码" maxlength="30">
+                </div>
+                <div class="tab-pwd">
+                    <span class="glyphicon glyphicon-ok-sign" aria-hidden="true" style="color: #ddd"></span>
+                    <input class="loginInput check" type="password" placeholder="短信验证码" maxlength="30">
+                    <button>获取验证码</button>
+                </div>
+            </div>
+        </div>
+        <!-- 登录方式选项卡部分结束 -->
+        <!-- 登录按钮 -->
+        <div class="loginBtnDiv">
+            <button class="loginBtn" id="loginBtn">登录</button>
+        </div>
+        <!-- 登录不了 -->
+        <div class="no-login">
+            <button class="forget">忘记密码</button>
+            <a href="zhuce.html"><button class="zhuce">注册</button></a>
+        </div>
+        <div class="otherLogin">
+            <div class="leftLine"></div>
+            <div class="centerText">其他登录方式</div>
+            <div class="rightLine"></div>
+        </div>
+        <div class="otherLoginMethod">
+            <a target="_top" href="javascript:;">
+                <img src="../images/QQ.png" alt="QQ">
+            </a>
+            <a target="_top" href="javascript:;">
+                <img src="../images/weixin.png" alt="weixin">
+            </a>
+            <a target="_top" href="javascript:;">
+                <img src="../images/weibo.png" alt="weibo">
+            </a>
+            <a target="_top" href="javascript:;" alt="">
+                <img src="../images/pay.png" alt="pay">
+            </a>
+        </div>
+    </div>
+</body>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../js/login.js"></script>
+
+
+</html>

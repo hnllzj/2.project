@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.jpg" alt="logo" class="logoImg">
+        <div class="spaceLine"></div>
+        <div style="float: left;
+                font-size: 18px;">欢迎注册
+        </div>
+        <a href="login.html" style="float: right; font-size: 13px; color: #1c94f2; margin-right: 30px; margin-top: 10px; cursor: pointer;">请登录</a>
+        <span style="float: right; font-size: 13px; margin-top: 10px; color: #b2b2b2">已有账号？</span>
+    </header>
+    <div class="inputTopDiv">
+        <div id="headerStep1Div" class="heightlightDivColor">
+            <img src="../images/register_ico_1_focus.png"><span class="numberSpan">1</span><span>验证手机</span>
+        </div>
+        <div id="headerStep2Div" class="normalDivColor">
+            <img src="../images/register_ico_2_normal .png"><span class="numberSpan">2</span><span>设置密码</span>
+        </div>
+        <div id="headerStep3Div" class="normalDivColor">
+            <img src="../images/register_ico_3_normal .png" alt=""><span class="numberSpan">3</span><span>注册成功</span>
+        </div>
+    </div>
+    <div class="contentDiv">
+        <div class="phoneDiv msgInput">
+            <input class="loginInput" placeholder="请输入手机号码" id="phoneInput" maxlength="11" type="text">
+        </div>
+        <div style="height:28px">
+            <div id="phoneCheck" class="checkDiv" style="display: none">请输入正确的手机号</div>
+        </div>
+        <div class="pwdDiv  msgInput">
+            <input placeholder="密码 " id="pwdInput" maxlength="30 " type="password">
+        </div>
+        <div style="height:28px">
+            <div id="pwdCheck" class="checkDiv" style="display: none">密码格式应为字母开头 6-30位</div>
+        </div>
+        <div class="zhuceDiv">
+            <button class="zhuceBtn" id="zhuceBtn">注册</button>
+        </div>
+        <div style="width: 380px; margin: 0px auto; margin-top: 10px; ">
+            <img id="checkId " src="../images/ok.png " alt=" " style="float: left; width: 15px; margin-right: 10px; margin-top: 2px; cursor: pointer; "> <span style="font-size: 13px; float: left; ">我已阅读并接受</span> <span style="font-size: 13px; float:
+            left; color: #e90000; cursor: pointer; " onclick="userSe() ">&nbsp;版权声明、</span><span style="font-size: 13px; float: left; color: #e90000; cursor: pointer; " onclick="userDe() ">隐私保护&nbsp;</span> <span style="font-size: 13px; float: left; "> 条款</span>
+        </div>
+    </div>
+</body>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../js/zhuce.js"></script>
+
+</html>
