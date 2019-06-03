@@ -1,0 +1,327 @@
+body {
+  background: #f9f9f9;
+}
+.pro-detail-top {
+  padding-bottom: 93px;
+  width: 100%;
+  overflow: hidden;
+}
+.pro-detail-top .pro-detail-bumb {
+  margin: 0 auto;
+  width: 1226px;
+  height: 47px;
+  line-height: 47px;
+  color: #000;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-bumb a {
+  color: #000;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-bumb span {
+  padding-left: 6px;
+  padding-right: 10px;
+}
+.pro-detail-top .pro-detail-con {
+  width: 100%;
+  border-top: 1px solid #d7d7d7;
+  background: #f9f9f9;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner {
+  margin: 0 auto;
+  width: 1226px;
+  padding-bottom: 33px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box {
+  float: left;
+  padding-top: 25px;
+  width: 512px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic {
+  position: relative;
+  padding: 0;
+  width: 510px;
+  height: 510px;
+  border: 1px solid #e7e7e7;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic .movebox {
+  display: none;
+  left: 306px;
+  top: 269px;
+  position: absolute;
+  z-index: 99;
+  width: 204px;
+  height: 204px;
+  background: #F8B600;
+  border: 1px solid #987777;
+  opacity: 0.4;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic .big-pic {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: 512px;
+  top: -1px;
+  width: 510px;
+  height: 510px;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic .bigpic {
+  position: absolute;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items {
+  padding-top: 10px;
+  height: 96px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-pre {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  width: 19px;
+  height: 86px;
+  background: url(../images/pro-ditem-pre_03.jpg) no-repeat left center;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic {
+  float: left;
+  margin-top: 10px;
+  width: 470px;
+  overflow: hidden;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic ul {
+  width: 566px;
+  height: 86px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic ul li {
+  float: left;
+  margin-right: 10px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic ul li a {
+  display: block;
+  width: 84px;
+  height: 84px;
+  border: 1px solid #eaeaea;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic ul li a img {
+  width: 84px;
+  height: 84px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-items-pic ul li a:hover {
+  border: 1px solid #ed3c42;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .display-box .pro-pic-items .pro-next {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  width: 19px;
+  height: 86px;
+  background: url(../images/pro-ditem-next_03.jpg) no-repeat right center;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data {
+  width: 650px;
+  float: right;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-name {
+  float: left;
+  padding-top: 54px;
+  padding-bottom: 8px;
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-name h2 {
+  float: left;
+  width: 535px;
+  line-height: 28px;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-name h2 p {
+  line-height: 32px;
+  color: #999;
+  font-size: 12px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-name a {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  width: 68px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 14px;
+  background: #f1f1f1;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-price {
+  height: 110px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-price strong {
+  height: 65px;
+  line-height: 65px;
+  font-size: 18px;
+  color: #f12020;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-price strong span {
+  font-size: 23px;
+  font-weight: bold;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-type {
+  float: left;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-type span {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-type ul {
+  height: 30px;
+  margin-left: 70px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-type ul li {
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 4px;
+  line-height: 28px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-type ul li a {
+  border: 1px solid #999;
+  color: #333;
+  font-size: 12px;
+  padding: 0 13px;
+  display: block;
+  white-space: nowrap;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-where {
+  padding-top: 26px;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  float: left;
+  padding-bottom: 15px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-where .pro-address {
+  height: 30px;
+  color: #333;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-where .pro-address span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-where .pro-address select {
+  font-size: 14px;
+  color: #333;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-where p {
+  color: #333;
+  line-height: 56px;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num {
+  float: left;
+  padding-top: 30px;
+  width: 100%;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .choose-num {
+  height: 40px;
+  color: #333;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-btns {
+  padding-top: 26px;
+  width: 100%;
+  float: left;
+  padding-bottom: 15px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-btns a {
+  display: block;
+  float: left;
+  width: 178px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-btns .buy-now {
+  background: #f12020;
+  border: 1px solid #f12020;
+  color: #fff;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-btns .toShopCar {
+  margin-left: 13px;
+  background: #fff;
+  border: 1px solid #999;
+  color: #666;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-handle {
+  float: left;
+  padding-top: 35px;
+  width: 100%;
+  height: 18px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-handle > a {
+  padding-left: 25px;
+  padding-right: 30px;
+  line-height: 18px;
+  color: #333;
+  font-size: 14px;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-handle .pro-kf {
+  background: url(../images/pro-ditem-kf_03.jpg) no-repeat left center;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-handle .pro-sc {
+  background: url(../images/pro-ditem-like_03.jpg) no-repeat left center;
+}
+.pro-detail-top .pro-detail-con .pro-detail-con-inner .pro-data .pro-num .pro-handle .pro-fx {
+  background: url(../images/pro-ditem-share_03.jpg) no-repeat left center;
+}
+.pro-detail-center {
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 1226px;
+  height: 60px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+}
+.pro-detail-center a {
+  display: block;
+  float: left;
+  margin: 0 32px;
+  margin-top: 1px;
+  padding: 0 11px;
+  height: 58px;
+  line-height: 58px;
+  color: #000;
+}
+.pro-detail-center span {
+  display: block;
+  float: left;
+  margin-left: 4px;
+  margin-top: 18px;
+  width: 1px;
+  height: 24px;
+  background: #cfcfcf;
+}
+.pro-detail-bot {
+  width: 1226px;
+  margin: 0px auto;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+#float-rBox li {
+  width: 40px;
+  height: 40px;
+  margin-top: 1px;
+}

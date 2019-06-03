@@ -1,0 +1,142 @@
+.nav2 {
+  box-shadow: 0 1px 1px 0 #e1e1e1;
+}
+.nav2 .nav-pro {
+  margin-left: 200px;
+}
+.nav2 .nav-pro li {
+  margin: 0 10px;
+}
+.nav2 .nav-pro li a {
+  font-size: 18px !important;
+  color: #333 !important;
+}
+main .main-inner {
+  width: 1230px;
+  margin: 0 auto;
+}
+main .main-inner .CH-news {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+main .main-inner .CH-news .CH-news-text {
+  width: 656px;
+  float: left;
+}
+main .main-inner .CH-news .CH-news-text .CH-news-title {
+  height: 30px;
+  line-height: 30px;
+}
+main .main-inner .CH-news .CH-news-text .CH-news-title p {
+  float: left;
+  font-size: 24px;
+  color: #333;
+}
+main .main-inner .CH-news .CH-news-text .CH-news-title a {
+  float: right;
+  font-size: 18px;
+  color: #666;
+}
+main .main-inner .CH-news .CH-news-text ul {
+  height: 288px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+main .main-inner .CH-news .CH-news-text ul li {
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+}
+main .main-inner .CH-news .CH-news-text ul li a {
+  float: left;
+  display: block;
+  width: 485px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #666;
+}
+main .main-inner .CH-news .CH-news-text ul li span {
+  float: right;
+  line-height: 36px;
+  font-size: 16px;
+  color: #666;
+}
+main .main-inner .CH-news .CH-news-img {
+  width: 500px;
+  float: right;
+}
+main .main-inner .CH-news .CH-news-img .lf {
+  float: left;
+}
+main .main-inner .CH-news .CH-news-img .rt {
+  float: right;
+}
+main .main-inner .CH-news .CH-news-img .news-img-box {
+  position: relative;
+  display: block;
+}
+main .main-inner .CH-news .CH-news-img .news-img-box .img-intro {
+  width: 240px;
+  bottom: 5px;
+  position: absolute;
+  height: 61px;
+  left: 0;
+}
+main .main-inner .CH-news .CH-news-img .news-img-box .img-intro .img-intro-opa {
+  width: 240px;
+  position: absolute;
+  height: 61px;
+  background: #000;
+  opacity: 0.5;
+}
+main .main-inner .CH-news .CH-news-img .news-img-box .img-intro .img-intro-wz {
+  position: absolute;
+  color: #fff;
+  z-index: 999;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-left: 13px;
+}
+main .main-inner .CH-about-play {
+  position: relative;
+  height: 500px;
+  width: 1224px;
+  margin: 20px auto 20px;
+  box-shadow: 0 0 15px #b9b9b9;
+}
+main .main-inner .CH-about-play p {
+  position: absolute;
+  top: 118px;
+  left: 50%;
+  margin-left: -164px;
+  font-size: 44px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #dcdcdc;
+}
+main .main-inner .CH-about-play p span {
+  margin-left: 20px;
+}
+main .main-inner .CH-about-bottom {
+  height: 350px;
+  margin-bottom: 45px;
+}
+main .main-inner .CH-about-bottom .idx-bott-box {
+  position: relative;
+  display: block;
+  float: left;
+  color: #fff;
+  margin-left: 22px;
+}
+main .main-inner .CH-about-bottom .idx-bott-box p {
+  position: absolute;
+  font-size: 24px;
+  bottom: 80px;
+  left: 32px;
+}
+main .main-inner .CH-about-bottom .idx-bott-box span {
+  position: absolute;
+  font-size: 18px;
+  bottom: 50px;
+  left: 32px;
+}

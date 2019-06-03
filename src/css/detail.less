@@ -1,0 +1,384 @@
+body {
+    background: #f9f9f9;
+}
+
+.pro-detail-top {
+    padding-bottom: 93px;
+    width: 100%;
+    overflow: hidden;
+
+    .pro-detail-bumb {
+        margin: 0 auto;
+        width: 1226px;
+        height: 47px;
+        line-height: 47px;
+        color: #000;
+        font-size: 14px;
+
+        a {
+            color: #000;
+            font-size: 14px;
+        }
+
+        span {
+            padding-left: 6px;
+            padding-right: 10px;
+        }
+    }
+
+    .pro-detail-con {
+        width: 100%;
+        border-top: 1px solid #d7d7d7;
+        background: #f9f9f9;
+
+        .pro-detail-con-inner {
+            margin: 0 auto;
+            width: 1226px;
+            padding-bottom: 33px;
+
+            .display-box {
+
+                float: left;
+                padding-top: 25px;
+                width: 512px;
+
+                .pro-pic {
+                    position: relative;
+                    padding: 0;
+                    width: 510px;
+                    height: 510px;
+                    border: 1px solid #e7e7e7;
+
+                    .movebox {
+                        display: none;
+                        left: 306px;
+                        top: 269px;
+                        position: absolute;
+                        z-index: 99;
+                        width: 204px;
+                        height: 204px;
+                        background: #F8B600;
+                        border: 1px solid #987777;
+                        opacity: 0.4;
+                    }
+
+                    .big-pic {
+                        display: none;
+                        position: absolute;
+                        z-index: 99;
+                        left: 512px;
+                        top: -1px;
+                        width: 510px;
+                        height: 510px;
+                        background: #fff;
+                        border: 1px solid #e7e7e7;
+                        overflow: hidden;
+                    }
+
+                    .bigpic {
+                        position: absolute
+                    }
+                }
+
+                .pro-pic-items {
+                    padding-top: 10px;
+                    height: 96px;
+
+                    .pro-pre {
+                        display: block;
+                        float: left;
+                        margin-top: 10px;
+                        width: 19px;
+                        height: 86px;
+                        background: url(../images/pro-ditem-pre_03.jpg) no-repeat left center;
+                    }
+
+                    .pro-items-pic {
+                        float: left;
+                        margin-top: 10px;
+                        width: 470px;
+                        overflow: hidden;
+
+                        ul {
+                            width: 566px;
+                            height: 86px;
+
+                            li {
+                                float: left;
+                                margin-right: 10px;
+
+                                a {
+                                    display: block;
+                                    width: 84px;
+                                    height: 84px;
+                                    border: 1px solid #eaeaea;
+
+                                    img {
+                                        width: 84px;
+                                        height: 84px;
+                                    }
+                                }
+
+                                a:hover {
+                                    border: 1px solid #ed3c42;
+                                }
+                            }
+                        }
+                    }
+
+                    .pro-next {
+                        display: block;
+                        float: left;
+                        margin-top: 10px;
+                        width: 19px;
+                        height: 86px;
+                        background: url(../images/pro-ditem-next_03.jpg) no-repeat right center;
+                    }
+                }
+            }
+
+            .pro-data {
+                width: 650px;
+                float: right;
+
+                .pro-name {
+                    float: left;
+                    padding-top: 54px;
+                    padding-bottom: 8px;
+                    width: 100%;
+                    border-bottom: 1px solid #e1e1e1;
+
+                    h2 {
+                        float: left;
+                        width: 535px;
+                        line-height: 28px;
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: normal;
+
+                        p {
+                            line-height: 32px;
+                            color: #999;
+                            font-size: 12px;
+                        }
+                    }
+
+                    a {
+                        display: block;
+                        float: right;
+                        margin-top: 10px;
+                        width: 68px;
+                        height: 22px;
+                        line-height: 22px;
+                        text-align: center;
+                        border: 1px solid #ddd;
+                        color: #333;
+                        font-size: 14px;
+                        background: #f1f1f1;
+                    }
+                }
+
+                .pro-price {
+                    height: 110px;
+                    float: left;
+                    width: 100%;
+                    border-bottom: 1px solid #e1e1e1;
+
+                    strong {
+                        height: 65px;
+                        line-height: 65px;
+                        font-size: 18px;
+                        color: #f12020;
+
+                        span {
+                            font-size: 23px;
+                            font-weight: bold
+                        }
+                    }
+                }
+
+                .pro-type {
+                    float: left;
+                    padding-bottom: 15px;
+                    padding-top: 20px;
+                    width: 100%;
+                    border-bottom: 1px solid #e3e3e3;
+
+                    span {
+                        display: block;
+                        float: left;
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        color: #333;
+                    }
+
+                    ul {
+                        height: 30px;
+                        margin-left: 70px;
+
+                        li {
+                            float: left;
+                            margin-right: 7px;
+                            margin-bottom: 4px;
+                            line-height: 28px;
+
+                            a {
+                                border: 1px solid #999;
+                                color: #333;
+                                font-size: 12px;
+                                padding: 0 13px;
+                                display: block;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+
+                ;
+
+                .pro-where {
+                    padding-top: 26px;
+                    width: 100%;
+                    border-bottom: 1px solid #e3e3e3;
+                    float: left;
+                    padding-bottom: 15px;
+
+                    .pro-address {
+                        height: 30px;
+                        color: #333;
+
+                        span {
+                            height: 30px;
+                            line-height: 30px;
+                            font-size: 14px;
+                        }
+
+                        select {
+                            font-size: 14px;
+                            color: #333;
+                        }
+                    }
+
+                    p {
+                        color: #333;
+                        line-height: 56px;
+                        font-size: 14px;
+                    }
+                }
+
+                .pro-num {
+                    float: left;
+                    padding-top: 30px;
+                    width: 100%;
+
+                    .choose-num {
+                        height: 40px;
+                        color: #333;
+                        font-size: 14px;
+
+                    }
+
+                    .pro-btns {
+                        padding-top: 26px;
+                        width: 100%;
+                        float: left;
+                        padding-bottom: 15px;
+
+                        a {
+                            display: block;
+                            float: left;
+                            width: 178px;
+                            height: 40px;
+                            text-align: center;
+                            line-height: 40px;
+                            font-size: 14px;
+                        }
+
+                        .buy-now {
+                            background: #f12020;
+                            border: 1px solid #f12020;
+                            color: #fff;
+                        }
+
+                        .toShopCar {
+                            margin-left: 13px;
+                            background: #fff;
+                            border: 1px solid #999;
+                            color: #666;
+                        }
+                    }
+
+                    .pro-handle {
+                        float: left;
+                        padding-top: 35px;
+                        width: 100%;
+                        height: 18px;
+
+                        &>a {
+                            padding-left: 25px;
+                            padding-right: 30px;
+                            line-height: 18px;
+                            color: #333;
+                            font-size: 14px;
+                        }
+
+                        .pro-kf {
+                            background: url(../images/pro-ditem-kf_03.jpg) no-repeat left center
+                        }
+
+                        .pro-sc {
+                            background: url(../images/pro-ditem-like_03.jpg) no-repeat left center;
+                        }
+
+                        .pro-fx {
+                            background: url(../images/pro-ditem-share_03.jpg) no-repeat left center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pro-detail-center {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 1226px;
+    height: 60px;
+    border: 1px solid #cfcfcf;
+    background: #fff;
+
+    a {
+        display: block;
+        float: left;
+        margin: 0 32px;
+        margin-top: 1px;
+        padding: 0 11px;
+        height: 58px;
+        line-height: 58px;
+        color: #000;
+    }
+    span{
+        display: block;
+        float: left;
+        margin-left: 4px;
+        margin-top: 18px;
+        width: 1px;
+        height: 24px;
+        background: #cfcfcf;
+    }
+}
+.pro-detail-bot{
+    width: 1226px;
+    margin: 0px auto;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+#float-rBox{
+    li{
+        width: 40px;
+        height: 40px;
+        margin-top: 1px;
+    }
+}

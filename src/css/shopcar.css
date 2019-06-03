@@ -1,0 +1,244 @@
+.header-nav {
+  position: relative;
+  background: #ffffff;
+  z-index: 100;
+  box-shadow: 0px 3px 3px 0px #e1e1e1;
+  height: 78px;
+}
+.header-nav .header-nav-inner {
+  width: 1226px;
+  margin: 0 auto;
+}
+.header-nav .header-nav-inner .header-logo {
+  float: left;
+  height: 78px;
+}
+.header-nav .header-nav-inner .car-header {
+  margin: 24px 0 0 257px;
+  overflow: hidden;
+}
+.header-nav .header-nav-inner .car-header .car-step {
+  float: right;
+}
+.header-nav .header-nav-inner .car-header .car-step p {
+  float: left;
+  width: 130px;
+  border-top: 4px solid #cccccc;
+  margin: 14px 15px 0;
+}
+.header-nav .header-nav-inner .car-header .car-step .car-step-num {
+  font-size: 14px;
+  line-height: 30px;
+  float: left;
+}
+.header-nav .header-nav-inner .car-header .car-step .car-step-num span {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(../images/ok-icon04.png) no-repeat;
+  margin-right: 8px;
+  font-size: 20px;
+  color: #afafaf;
+  line-height: 28px;
+  text-align: center;
+}
+.header-nav .header-nav-inner .car-header .car-step .car-cur-step {
+  color: #4dbd62;
+}
+.header-nav .header-nav-inner .car-header .car-step .car-cur-step span {
+  background: url(../images/ok-icon03.png) no-repeat;
+  color: #fff;
+}
+.pro-info {
+  overflow: hidden;
+}
+.pro-info .pro-info-inner {
+  width: 1226px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.pro-info .pro-info-inner .pro-info-top {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #333;
+  line-height: 66px;
+}
+.pro-info .pro-info-inner .pro-info-top .all-choose {
+  float: left;
+}
+.pro-info .pro-info-inner .pro-info-top .all-choose .all-choose-input {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 25px 18px 0 15px;
+  background: url(../images/pro-sel-bac01.png) no-repeat;
+}
+.pro-info .pro-info-inner .pro-info-top .all-choose .all-choose-input input {
+  float: left;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+.pro-info .pro-info-inner .pro-info-top .all-choose .all-choose-text {
+  float: left;
+  margin-left: 5px;
+}
+.pro-info .pro-info-inner .pro-info-top .shixiao {
+  float: right;
+  padding-left: 15px;
+  margin-right: 15px;
+  background: url(../images/car-icon01.png) no-repeat left center;
+}
+.pro-info .pro-info-inner .pro-list {
+  overflow: hidden;
+  width: 100%;
+}
+.pro-info .pro-info-inner .pro-list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid {
+  background: #fff;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-check-box {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 72px 0 0 16px;
+  background: url(../images/pro-sel-bac01.png) no-repeat;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-check-box input {
+  float: left;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info {
+  margin-left: 50px;
+  border-left: 1px solid #f7f7f7;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-top {
+  border-bottom: 1px solid #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666666;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-top .like-del {
+  float: right;
+  margin-top: 8px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-top .like-del .pro-like {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 22px;
+  margin: 0 22px 0 6px;
+  background: url(../images/car-icon06.png) no-repeat;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-top .like-del .pro-del {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 0 22px 0 6px;
+  background: url(../images/car-icon07.png) no-repeat;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot {
+  height: auto;
+  padding: 5px 0px;
+  overflow: hidden;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-img {
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 10px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-img img {
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-title {
+  width: 300px;
+  height: 110px;
+  float: left;
+  margin-left: 13px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-title p {
+  color: #333333;
+  font-size: 14px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 110px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-price {
+  float: left;
+  margin-left: 25px;
+  width: 190px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-price p {
+  font-size: 14px;
+  color: #000;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-price p span {
+  font-size: 16px;
+  color: #eb1a21;
+  margin: 0 22px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-num {
+  float: left;
+  width: 225px;
+  height: 35px;
+  margin: 38px 0 0 30px;
+  overflow: hidden;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-num span {
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 50px;
+  color: #000;
+  line-height: 35px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-num input {
+  float: left;
+  width: 50px;
+  height: 16px;
+  margin-top: 7px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-buy {
+  float: right;
+  width: 270px;
+  font-size: 14px;
+  color: black;
+  line-height: 112px;
+  text-align: center;
+  padding-top: 36px;
+}
+.pro-info .pro-info-inner .pro-list .pro-grid .grid-pro-info .grid-pro-info-bot .pro-buy a {
+  float: left;
+  width: 178px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  background: #f12020;
+  border: 1px solid #f12020;
+  color: #fff;
+}

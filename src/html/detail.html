@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header,footer.css">
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <!-- public nav  -->
+
+    <nav id="h-nav">
+        <ul class="h-nav-left">
+            <li><a href="javascript:;">长虹官网</a>
+            </li>
+            <li><a href="./aboutCH.html">关于长虹</a></li>
+            <li><a href="javascript:;">商务合作</a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="../images/en_icon.png">&nbsp;&nbsp;English</a>
+            </li>
+        </ul>
+        <ul class="h-nav-right">
+            <li class="nohover"><span><a href="./login.html" class="enter">登录</a></span><span style="font-size:12px; color:#ffffff; margin:0px 12px;">|</span><span><a href="./zhuce.html" class="zhuce">注册</a></span></li>
+            <li class="myCH"><a href="javascript:;" style="background: url(../images/home-toolbar-login_03.png) no-repeat left center; margin-left: 16px">我的长虹</a>
+                <div class="sub-myCH">
+                    <div class="sub-myCH-infor">
+                        <img src="../images/tool-myCQ-my-photo_03.jpg" alt="#" width="60" height="60" id="user_image" style="float: left;display: block">
+                        <p class="sub-enter" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-right: 5px;"><a href="javascript:;" id="login_account">您好请登录</a></p>
+                        <p class="sub-user"><a href="#">账户设置</a></p>
+                    </div>
+                    <div class="sub-myCH-operation">
+                        <a href="javascript:;">我的订单</a>
+                        <span>|</span>
+                        <a href="javascript:;">我的预约</a>
+                        <div class="tool-myCQ-operation-cut"></div>
+                        <a href="javascript:;">家电管家</a>
+                        <span>|</span>
+                        <a href="javascript:;">服务记录</a>
+                        <div class="tool-myCQ-operation-cut"></div>
+                        <a href="javascript:;">我的积分</a>
+                        <span>|</span>
+                        <div class="tool-myCQ-operation-cut"></div>
+                        <a href="javascript:;">我的收藏</a>
+                    </div>
+                </div>
+            </li>
+            <li class="hcyp"><a href="javascript:;" style="background: url(../images/home-toolbar-news_05.png) no-repeat left center; margin-left: 16px">虹创有品</a>
+                <div><img class="hcimg" src="../images/cnhome-hcyp-ewm.jpg" alt="#"></div>
+            </li>
+            <li class="buy-car"><a href="shopcar.html" style="background: url(../images/home-toolbar-shoppingcar_03.png) no-repeat left center; margin-left: 16px">购物车</a>
+                <p class="sub-buy">购物车中还没商品，赶紧选购吧</p>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- 第二导航 -->
+    <div class="nav2">
+        <div class="nav2-inner">
+            <div class="logo">
+                <a href="#"><img src=" ../images/P020161125568572860644.png" alt="#"></a>
+            </div>
+            <ul class="nav-pro">
+                <li><a href="ch_index.html" class="index" style="color: #555555">首页</a></li>
+                <li class="nav2-tv"><a href="#">电视</a>
+                    <div class="sub-tv">
+                        <div style="width: 1226px; margin: 0 auto;">
+                            <div>
+                                <p class="tv-hot">热门推荐</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="tv-hot-box">
+                                        <a href="#" class="tv-hot-img"><img src="../images/W020190305560297961164_135.jpg" alt="#"></a>
+                                        <p> <a href="#">
+                        65英寸OLED电视</a></p>
+                                        <h2>￥21997.00</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tv-hot-box">
+                                        <a href="#" class="tv-hot-img"><img src="../images/W020190305560297961164_135.jpg" alt="#"></a>
+                                        <p><a href="#">65英寸OLED电视</a></p>
+                                        <h2>￥21997.00</h2>
+                                </li>
+                                <li>
+                                    <div class="tv-hot-box">
+                                        <a href="#" class="tv-hot-img"><img src="../images/W020190305560297961164_135.jpg" alt="#"></a>
+                                        <p><a href="# ">65英寸OLED电视</a></p>
+                                        <h2>￥21997.00</h2>
+                                </li>
+                                <li>
+                                    <div class="tv-hot-box">
+                                        <a href="#" class="tv-hot-img"><img src="../images/W020190305560297961164_135.jpg" alt="#"></a>
+                                        <p><a href="#">65英寸OLED电视</a></p>
+                                        <h2>￥21997.00</h2>
+                                </li>
+                            </ul>
+                            </div>
+                            </div>
+                </li>
+                <li class="nav2-kt"><a href="#">空调</a>
+                    <div class="sub-kt">
+                        <div style="width:1226px; margin: 0 auto;">
+                            <div>
+                                <p class="kt-hot">热门推荐</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="kt-hot-box">
+                                        <a href="#" class="kt-hot-img"><img src="../images/W020190305574355116484_135.jpg" alt="#"></a>
+                                        <p> <a href="#">
+                                        3P一级节能 人...</a></p>
+                                        <h2>￥13999.00</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="kt-hot-box">
+                                        <a href="#" class="kt-hot-img"><img src="../images/W020190305574355116484_135.jpg" alt="#"></a>
+                                        <p><a href="#">3P一级节能 人...</a></p>
+                                        <h2>￥13999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="kt-hot-box">
+                                        <a href="#" class="kt-hot-img"><img src="../images/W020190305574355116484_135.jpg" alt="#"></a>
+                                        <p><a href="#">3P一级节能 人...</a></p>
+                                        <h2>￥13999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="kt-hot-box">
+                                        <a href="#" class="kt-hot-img"><img src="../images/W020190305574355116484_135.jpg" alt="#"></a>
+                                        <p><a href="#">3P一级节能 人...</a></p>
+                                        <h2>￥13999.00</h2>
+                                </li>
+                            </ul>
+                            </div>
+                            </div>
+                </li>
+                <li class="nav2-bx">
+                    <a href="#">冰洗</a>
+                    <div class="sub-bx">
+                        <div style="width: 1226px; margin: 0 auto;">
+                            <div>
+                                <p class="bx-hot">热门推荐</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="bx-hot-box">
+                                        <a href="#" class="bx-hot-img"><img src="../images/W020190305577835477399_135.jpg" alt="#"></a>
+                                        <p> <a href="#">
+                                M鲜生对开门冰箱</a></p>
+                                        <h2>￥9999.00</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bx-hot-box">
+                                        <a href="#" class="bx-hot-img"><img src="../images/W020190305577835477399_135.jpg" alt="#"></a>
+                                        <p><a href="#">M鲜生对开门冰箱</a></p>
+                                        <h2>￥9999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="bx-hot-box">
+                                        <a href="#" class="bx-hot-img"><img src="../images/W020190305577835477399_135.jpg" alt="#"></a>
+                                        <p><a href="#">M鲜生对开门冰箱</a></p>
+                                        <h2>￥9999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="bx-hot-box">
+                                        <a href="#" class="bx-hot-img"><img src="../images/W020190305577835477399_135.jpg" alt="#"></a>
+                                        <p><a href="#">M鲜生对开门冰箱</a></p>
+                                        <h2>￥9999.00</h2>
+                                </li>
+                            </ul>
+                            </div>
+                            </div>
+                </li>
+                <li class="nav2-xsq"><a href="#">显示器</a>
+                    <div class="sub-xsq">
+                        <div style="width: 1226px; margin: 0 auto;">
+                            <div>
+                                <p class="xsq-hot">热门推荐</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="xsq-hot-box">
+                                        <a href="#" class="xsq-hot-img"><img src="../images/W020180723760297364501_135.jpg" alt="#"></a>
+                                        <p> <a href="#">
+                                        32时曲面窄边高清</a></p>
+                                        <h2>￥2999.00</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="xsq-hot-box">
+                                        <a href="#" class="xsq-hot-img"><img src="../images/W020180723760297364501_135.jpg" alt="#"></a>
+                                        <p><a href="#">32时曲面窄边高清</a></p>
+                                        <h2>￥2999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="xsq-hot-box">
+                                        <a href="#" class="xsq-hot-img"><img src="../images/W020180723760297364501_135.jpg" alt="#"></a>
+                                        <p><a href="#">32时曲面窄边高清</a></p>
+                                        <h2>￥2999.00</h2>
+                                </li>
+                                <li>
+                                    <div class="xsq-hot-box">
+                                        <a href="#" class="xsq-hot-img"><img src="../images/W020180723760297364501_135.jpg" alt="#"></a>
+                                        <p><a href="#">32时曲面窄边高清</a></p>
+                                        <h2>￥2999.00</h2>
+                                </li>
+                            </ul>
+                            </div>
+                            </div>
+                </li>
+                <li class="nav2-fw"><a href="#">服务</a>
+                    <div class="sub-fw">
+                        <div style="width: 1226px; margin: 0 auto;">
+                            <div>
+                                <p class="fw-hot">服务支持</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="fw-hot-box">
+                                        <a href="#" class="fw-hot-img"><img src="../images/W020170727354567218829.png" alt="#"></a>
+                                        <p> <a href="#">
+                                    产品保修服务</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fw-hot-box">
+                                        <a href="#" class="xfw-hot-img"><img src="../images/W020170727354567218829.png" alt="#"></a>
+                                        <p><a href="#">产品保修服务</a></p>
+                                </li>
+                                <li>
+                                    <div class="fw-hot-box">
+                                        <a href="#" class="fw-hot-img"><img src="../images/W020170727354567218829.png" alt="#"></a>
+                                        <p><a href="#">产品保修服务</a></p>
+                                </li>
+                                <li>
+                                    <div class="fw-hot-box">
+                                        <a href="#" class="fw-hot-img"><img src="../images/W020170727354567218829.png " alt="#"></a>
+                                        <p><a href="#">产品保修服务</a></p>
+                                </li>
+                            </ul>
+                            </div>
+                            </div>
+                </li>
+                <li><a href="#">社区</a></li>
+            </ul>
+            <div class="nav-input"><input type="text" class="input1" placeholder="D7P" style=" outline: none;background: #fff;">
+                <input type="text" class="input2">
+            </div>
+            </div>
+            </div>
+
+            <div class="pro-detail-top">
+                <p class="pro-detail-bumb">
+                    当前位置：
+                    <a href="ch_index.html">首页</a>
+                    <span>&gt;</span>
+                    <a target="_self" href="javascript:;">智能电视</a>
+                </p>
+                <div class="pro-detail-con" id="tv-change">
+                    <!-- <div class="pro-detail-con-inner">
+                    <div class="display-box">
+                        <div class="pro-pic">
+                            <div class="small-pic">
+                                <img src="../images/W020170405557200893333.jpg" class="smallpic" width="510" height="510" style="display: block">
+                                <div class="movebox"></div>
+                            </div>
+                            <div class="big-pic">
+                                <img src="../images/W020170405557200893333.jpg" class="bigpic" width="1275" height="1275" style="display: block">
+                            </div>
+                        </div>
+                        <div class="pro-pic-items">
+                            <a href="javascript:;" class="pro-pre"></a>
+                            <div class="pro-items-pic">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/W020190429582049528321.jpg " alt="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="../images/W020170909305830178876.jpg" alt="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="../images/W020170405557200893333 .jpg" alt="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="../images/W020170405557201016239.jpg" alt="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="../images/W020170405557201113287.jpg" alt="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="pro-next"></a>
+
+                        </div>
+                    </div>
+                    <div class="pro-data">
+                        <div class="pro-name">
+                            <h2>
+                                75D3P 75英寸全金属纤薄4K超高清HDR智能语音平板液晶电视
+                                <p>超大视野 沉浸观影</p>
+                            </h2>
+                            <a href="javascript:;">加入对比</a>
+                        </div>
+                        <div class="pro-price">
+                            <strong>
+                                    <span id="goodsPrice">￥6666.00</span>
+                            </strong>
+                        </div>
+                        <div class="pro-type">
+                            <span>选择规格：</span>
+                            <ul>
+                                <li><a href="javascript:;" style="border: 1px solid #f12020; color: #f12020;">75吋</a></li>
+                                <li><a href="javascript:;">65吋</a></li>
+                                <li><a href="javascript:;">50吋</a></li>
+                                <li><a href="javascript:;">55吋</a></li>
+                                <li><a href="javascript:;">50吋</a></li>
+                                <li><a href="javascript:;">65吋</a></li>
+                                <li><a href="javascript:;">55吋</a></li>
+                                <li><a href="javascript:;">50吋</a></li>
+                                <li><a href="javascript:;" style="border: 1px solid #f12020; color: #f12020;">75吋</a></li>
+                            </ul>
+                        </div>
+                        <div class="pro-where">
+                            <div class="pro-address">
+                                <span>配送地址：</span>
+                                <select name="address" id="pro-address">
+                                    <option value="北京市 ">北京市</option>
+                                    <option value="湖南省 ">湖南省</option>
+                                    <option value="浙江省 ">浙江省</option>
+                                    <option value="浙江省 ">上海市</option>
+                                    <option value="浙江省 ">广州市</option>
+                                </select>
+                            </div>
+                            <p>服务信息：
+                                <span>由长虹官方发货，并提供售后服务。</span>
+                            </p>
+                        </div>
+                        <div class="pro-num">
+                            <div class="choose-num">
+                                <span>商品数量：</span>
+                                <input type="number" value="1" min="1" max="5" id="num">
+                            </div>
+                            <div class="pro-btns">
+                                <a href="javascript:;" class="buy-now ">立即购买</a>
+                                <a href="javascript:;" class="toShopCar ">加入购物车</a>
+                            </div>
+                            <p class="pro-handle ">
+                                <a href="javascript:;" class="pro-kf">在线客服</a>
+                                <a href="javascript:;" class="pro-sc">收藏</a>
+                                <a href="javascript:;" class="pro-fx">分享</a>
+                                <span class="pro-fx-type">
+                                <a href="javascript:;" class="pro-fx-wb">
+                                    <img src="../images/share-sinaminiblog.gif" alt="#">
+                                </a>
+                                <a href="javascript:;" class="pro-fx-wx">
+                                        <img src="../images/share-weixin.png" alt="#">
+                                </a>
+                                <a href="javascript:;" class="pro-fx-qq">
+                                        <img src="../images/share-qzone.gif" alt="#">
+                                </a>
+                                <a href="javascript:;" class="pro-fx-db">
+                                        <img src="../images/share-douban.png" alt="#">
+                                </a>
+                            </span>
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+
+            <!-- 商品特征导航 -->
+
+            <div class="pro-detail-center">
+                <a href="javascript:;" style="border-bottom: 2px solid #f12020;">产品特征</a>
+                <span></span>
+                <a href="javascript:;">技术参数</a>
+                <span></span>
+                <a href="javascript:;">客户评价</a>
+                <span></span>
+                <a href="javascript:;">服务</a>
+                <span></span>
+                <a href="javascript:;">配件</a>
+                <span></span>
+                <a href="javascript:;">评测</a>
+            </div>
+
+
+            <!-- 商品图片展示 -->
+            <div class="pro-detail-bot">
+                <img class="lazy" data-original="../images/W020180531644711721225.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644711969536.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644712160681.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644712331977.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644712599847.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644712785106.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644712965091.jpg" alt="#">
+                <img class="lazy" data-original="../images/W020180531644713304965.jpg" alt="#">
+            </div>
+            <!-- footer -->
+            <footer>
+                <div class="footer-inner">
+                    <div class="footer-help">
+                        <div class="help-about">
+                            <div class="help-about-left">
+                                <div class="about-icon"><img alt="#" src="../images/describe-1_03.png" width="55" height="37"></div>
+                                <div class="about-text">
+                                    <h2 style="font-weight:bold">物流快线</h2>
+                                    <p>及时响应准确送达</p>
+                                </div>
+                            </div>
+                            <div class="help-about-right">
+                                <div class="about-icon" style="margin-top: 7px">
+                                    <img alt="#" src="../images/describe-3_05.png" width="45" height="38">
+                                </div>
+                                <div class="about-text">
+                                    <h2 style="font-weight:bold">无忧报修</h2>
+                                    <p>7*24小时客服热线</p>
+                                </div>
+                            </div>
+                            <div class="help-about-center">
+                                <div class="about-icon" style="margin-top: 7px">
+                                    <img alt="#" src="../images/describe-2_03.png" width="46" height="41">
+                                </div>
+                                <div class="about-text">
+                                    <h2 style="font-weight:bold">售后网点</h2>
+                                    <p>20000余家售后网点</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="help-ways">
+                            <div class="help-server lf">
+                                <ul class="lf">
+                                    <li class="help-title">品牌渠道</li>
+
+                                    <li><a href="javascript:;" target="_blank">长虹天猫</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">长虹京东</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">长虹苏宁</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">长虹国美</a></li>
+
+                                </ul>
+                                <ul class="lf ml40">
+                                    <li class="help-title">友情链接</li>
+
+                                    <li><a href="javascript:;" target="_blank">MELING美菱</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">中科美菱</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">日电科技</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">长虹手机</a></li>
+
+                                </ul>
+                                <ul class="lf ml40">
+                                    <li class="help-title">友情链接</li>
+
+                                    <li><a href="javascript:;" target="_blank">家事帮</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">腾讯视频•TV端</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">虹创有品</a></li>
+
+                                </ul>
+                                <ul class="rt">
+                                    <li class="help-title">服务支持</li>
+
+                                    <li><a href="javascript:;" target="_blank">产品查询</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">维修服务</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">延保服务</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">下载中心</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="help-team help-server lf">
+                                <ul class="lf">
+                                    <li class="help-title">长虹集团</li>
+
+                                    <li><a href="javascript:;" target="_blank">公司动态</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">投资者关系</a></li>
+
+                                </ul>
+                                <ul class="rt">
+                                    <li class="help-title">商务合作</li>
+
+                                    <li><a href="javascript:;" target="_blank">经销商登录</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">供应商登录</a></li>
+
+                                    <li><a href="javascript:;" target="_blank">服务商登录</a></li>
+
+                                </ul>
+                                <div class="clearfix"></div>
+                                <div class="foot-shopping">
+                                    <p class="lf"><a href="javascript:;" target="_blank">积分商城</a></p>
+                                    <p class="rt"><a href="javascript:;" target="_blank">购物指南</a></p>
+                                </div>
+                            </div>
+                            <div class="help-tel lf">
+                                <p class="airlines" style="background: url(../images/Customer-service_12.png) no-repeat left center"><a style="color:#f12020;" href="javascript:;">在线客服</a></p>
+
+                                <p class="feedback" style="background: url(../images/feedback_17.png) no-repeat left center;margin-top: 13px">
+                                    <a href="javascript:;" target="_blank" style="color:#f12020">问题反馈</a></p>
+                                <h2 style="margin-top:26px;">4008-111-666</h2>
+                                <h2>4006-111-666</h2>
+                            </div>
+                            <div class="help-code" style="box-sizing: border-box">
+
+
+                                <div class="help-code-box lf">
+                                    <img alt="官方特卖" width="108" height="108" src="../images/W020181020441545320825.jpg">
+                                    <p>官方特卖</p>
+                                </div>
+
+
+                                <div class="help-code-box rt">
+                                    <img alt="长虹服务" width="108" height="108" src="../images/W020160929398046882385.jpg">
+                                    <p>长虹服务</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-statement clearfix">
+                    <div class="footer-statement-inner">
+                        <div class="foot-logo" style="padding-top: 20px">
+                            <img alt="#" width="227" height="36" src="../images/footer-logo_03.png">
+                        </div>
+                        <div class="foot-text">
+                            <p><a style="color:#999" href="javascript:;">蜀ICP备09001737号-1</a> | © 2019 四川长虹电器股份有限公司 版权所有</p>
+                            <p>地址：四川省绵阳市高新区绵兴东路35号</p>
+                        </div>
+                        <div class="foot-note">
+                            <p style="margin-left: 144px"><img alt="#" width="26" height="31" src="../images/wzba-icon_03.png">经营性网站备案信息</p>
+                            <p style="margin-left: 106px"><img alt="#" width="24" height="20" src="../images/cxwz-icon_06.png">诚信网站</p>
+                            <p style="margin-left: 104px">
+                                <a href="javascript:;" target="_blank"><img src="../images/gsjgicon.gif" alt="#" width="20" height="20">工商网监</a>
+                            </p>
+                            <p style="margin-left: 104px"><img alt="#" width="18" height="20" src="../images/wsjy-icon_06.png">网上交易保障中心</p>
+                            <p style="margin-left: 95px"><img alt="#" width="20" height="20" src="../images/kxr-icon_08.png">可信网站信用评估</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div id="float-rBox">
+                <ul>
+                    <li class="float-rBox-top">
+                        <a href="shopcar.html" class="pro-float-car"><img src="../images/pro-float-icon_03.jpg" alt="" width="40" height="40"></a>
+                    </li>
+                    <li class="float-rBox-center">
+                        <a href="javascript:;"><img src="../images/pro-float-icon_05.jpg" alt="#" width="40" height="40"></a>
+                    </li>
+                    <li class="float-rBox-bot" id="back-top" style="display: none">
+                        <a href="javascript:;"><img src="../images/pro-float-icon_07.jpg" alt="#" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+</body>
+<script src="../../node_modules/jquery/dist/jquery.min.js "></script>
+<script src="../js/cookie.js "></script>
+<script src="../js/detail.js "></script>
+<script src="../js/lazyload.js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",
+            placeholder: "../images/timg.gif"
+        });
+    });
+</script>
+
+</html>
